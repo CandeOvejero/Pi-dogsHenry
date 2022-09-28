@@ -1,0 +1,38 @@
+.card {
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
+    transition: all 0.7s ease 0s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    box-shadow: rgb(0 0 0 / 50%) 0px 15px 25px, rgb(0 0 0 / 23%) 0px 6px 6px;
+    padding: 4em;
+    margin: 5em;
+    display: block;
+    -webkit-box-pack:center;
+    justify-content: center;
+    flex-direction:column;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 4em;
+    width: 20em;
+    height: 25em;
+    background-color: #58564b;
+  }
+  .card:hover {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+    transform: scale(1.02);
+  }
+
+  
+  img{
+    border-radius: 8px;
+  }
+  
+   
+  .cardInfo{
+    color: #040500;
+    text-decoration: none;
+  }
+  
+ 

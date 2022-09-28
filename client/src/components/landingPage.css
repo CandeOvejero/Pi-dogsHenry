@@ -1,0 +1,54 @@
+body{
+  background-image: url("https://wakyma.com/blog/wp-content/uploads/2016/11/perro-de-la-raza-bulldog-frances.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.doggies {
+ font-family: 'Indie Flower', cursive;
+ font-size: 50PX;
+}
+
+.button {
+    border-radius: 50px;
+    background-color: #f1d03e;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 90px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    top:10%;
+    left: 45%;
+    position:absolute;
+  }
+  
+  .button {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  .button :after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover {
+    padding-right: 25px;
+    
+  }
+  
+  .button:hover:after {
+    opacity: 1;
+    right: 0;
+  }
